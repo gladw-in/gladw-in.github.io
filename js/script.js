@@ -5,7 +5,7 @@ let loadedProjects = 0;
 let allProjects = [];
 
 function loadProjectsFromJSON() {
-	fetch('https://gladw-in.github.io/projects/data.json')
+	fetch('projects/data.json')
 		.then((response) => response.json())
 		.then((data) => {
 			allProjects = data;
@@ -39,8 +39,8 @@ function createProjectCard(projectData) {
     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"></path></svg>`;
 	const projectCard = document.createElement('div');
 	projectCard.className = 'project-card';
-	projectCard.innerHTML = `<img src="${projectData.image}" alt="${projectData.projectNumber}">
-    <h2>${projectData.projectNumber}</h2>
+	projectCard.innerHTML = `<img src="${projectData.image}" alt="${projectData.projectName}">
+    <h2>${projectData.projectName}</h2>
     <p>${projectData.description}</p>\n<p class="tech-used">${projectData.techUsed}</p>
     <a href="${projectData.detailsLink}" target="_blank"><button>View ${link}</button></a>`;
 	return projectCard;
