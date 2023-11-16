@@ -7,7 +7,7 @@
     "detailsLink": "https://glad432.github.io/"
   },
   {
-    "projectName": "Movie Tocket Booking",
+    "projectName": "Movie Ticket Booking",
     "image": "https://gladw-in.github.io/projects/images/movie%20ticket%20booking.webp",
     "description": "Movie Ticket Booking System is to manage the details of Shows, Booking, Payment, Movie and Customer. It manages all the information about Shows, Seats, Customers and Shows. Theatre management system, movie theatre management.",
     "techUsed": "Python, Mysql",
