@@ -5,7 +5,7 @@ let loadedProjects = 0;
 let allProjects = [];
 
 function loadProjectsFromJSON() {
-	fetch('projects/data.json')
+	fetch('https://gladw-in.github.io/projects/data.json')
 		.then((response) => response.json())
 		.then((data) => {
 			allProjects = data;
