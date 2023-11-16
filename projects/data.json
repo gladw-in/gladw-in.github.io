@@ -1,13 +1,13 @@
  [
   {
-    "projectNumber": "Python Minifier",
+    "projectName": "Python Minifier",
     "image": "https://gladw-in.github.io/projects/images/python%20minifier.webp",
     "description": "Python minifier is a tool that reduces the size of Python code by removing unnecessary characters, such as white spaces, comments, and line breaks. This can help to reduce the size of Python scripts and make them load faster, especially in web applications.",
     "techUsed": "HTML, CSS, JavaScript",
     "detailsLink": "https://glad432.github.io/"
   },
   {
-    "projectNumber": "Movie Tocket Booking",
+    "projectName": "Movie Tocket Booking",
     "image": "https://gladw-in.github.io/projects/images/movie%20ticket%20booking.webp",
     "description": "Movie Ticket Booking System is to manage the details of Shows, Booking, Payment, Movie and Customer. It manages all the information about Shows, Seats, Customers and Shows. Theatre management system, movie theatre management.",
     "techUsed": "Python, Mysql",
